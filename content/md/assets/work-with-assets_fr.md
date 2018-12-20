@@ -27,42 +27,43 @@ Les filtres peuvent être utilisés à l'aide des informations suivantes:
 - Date de création
 - Date de dernière mise à jour
 
-
-::: info
-The following information cannot be sorted out in the asset grid:
-- Thumbnail
-- Tags
+:::info
+Les informations suivantes ne peuvent pas être triées dans la grille des ressources:
+- Vignette
+- Mots clés
 :::
 
 ::: warning
-Asset thumbnail images displayed in the grid are the selected channel's variations. If no image is displayed it is because you do not have any variations generated for this channel. See how to generate variations in the [Edit the files of an asset](/articles/work-with-assets.html#edit-the-files-of-an-asset) part of this article.
+Les images miniatures des ressources affichées dans la grille correspondent aux variations du canal sélectionné. Si aucune image n'est affichée, c'est qu'il n'y a aucune variation générée pour ce canal. Découvrez comment générer des variantes dans la partie 
+ [Modifier les fichiers d'une ressource](/articles/work-with-assets.html#edit-the-files-of-an-asset).
 :::
 
-## Asset grid display (_since 2.1_)
+## Affichage de la grille des ressources (_à partir de la version 2.1_)
 
-To highlight the assets images, a `Gallery` display is available in the asset grid.
+Pour mettre en surbrillance les images des ressources, un mode d'affichage `Gallery` est disponible dans la grille d’actifs.
+
+::: info
+Les fonctionnalités liées à la grille s'appliquent également à cet affichage (filtres, canal, sélection de paramètres régionaux et de catégories, sélection de pagination, d'actifs, etc.).
+:::
+
+Pour utiliser le mode d'affichage `Gallery`:
+1. Cliquez sur `List` pour changer l'affichage 
+![Sélectionnez le mode d'affichage de la grille des ressources](../img/Assets_display.png)
+1. Sélectionnez le mode d'affichage `Gallery`
+![Affichage de la grille de ressources de la galerie](../img/Assets_gallery_display.png)
 
 :::info
-Grid features also apply to this display (filters, channel, locale and categories selection, pagination, assets selection, etc.).
+Le contexte de l'affichage choisi pour la grille d'actifs est conservé.
 :::
 
-To use the `Gallery` display:
-1.  Click on `List` to change the display  
-  ![Select the asset grid display](../img/Assets_display.png)
-1.  Select the display `Gallery`
-  ![Gallery display of the asset grid](../img/Assets_gallery_display.png)
+## Recherche par code (_à partir de la version 2.1_)
 
-:::info
-The context of the chosen display for the asset grid is kept.
-:::
+Pour rechercher rapidement des ressources dans la grille des ressources, vous pouvez effectuer une recherche sur le code.
 
-## Search by code (_since 2.1_)
+Le comportement de la recherche est un filtre "contient". Par exemple, si vous tapez "peut", toutes les ressources seront affichées avec un code contenant "peut".
 
-To quickly find assets in the assets grid, you can search on the code.
 
-The behavior of the search is a "contains" filter. For example, if you type in "can", it will display all the assets with a code which contains "can".  
-
-![Search bar of the asset grid](../img/Assets_search.png)
+![Barre de recherche de la grille des ressources](../img/Assets_search.png)
 
 # Create an asset
 
